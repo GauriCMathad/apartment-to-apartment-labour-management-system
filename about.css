@@ -1,0 +1,95 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('  https://www.homznspace.com/wp-content/uploads/2018/08/Brigade-Meadows-Plumeria-1068x636.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-section {
+    width: 100%;
+    padding: 0px 80px;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.navbar .brand h2 {
+    font-size: 40px;
+    color: #fff;
+
+
+}
+
+.navbar .brand span {
+    color: #84fa52;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar ul li a:hover {
+    color: #2fccc2;
+    transition: 0.5s;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 650px;
+    position: absolute;
+    top: 0;
+    left: 80;
+    padding-top: 225px;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #84fa52;
+    margin-bottom: 30px;
+    letter-spacing: 1.5px;
+
+
+}
+
+.content p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.5;
+
+}

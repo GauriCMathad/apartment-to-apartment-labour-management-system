@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffa000;
+}
+
+.payment {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    background: white;
+    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.2);
+}
+
+.payment_product {
+
+    display: flex;
+    align-items: flex-end;
+    width: 40%;
+    height: 100%;
+    background-color: #231942;
+
+    background-size: cover;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+
+}
+
+div.content {
+
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #ffa000;
+    align-items: center;
+
+
+
+
+}
+
+form#register {
+    margin: 30px;
+    font-size: 18px;
+    font-style: italic;
+
+
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    font-size: smaller;
+    padding-top: 0px;
+}
+
+input.name {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 4px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.payment_bill {
+    padding: 40px;
+    width: 80%;
+    height: 100%;
+    background: white;
+
+    background-size: cover;
+}
+
+.content {
+    color: #ffa000;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    height: 650px;
+    position: relative;
+    width: 100%;
+    background-color: #231942;
+    background-size: cover;
+
+}
+
+.content h3 {
+    margin-bottom: 30px;
+
+
+}
+
+.content h4 {
+    margin-bottom: 30px;
+}
+
+.btn-area {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 25px;
+    background: #ffa000;
+    color: #5f0f40;
+    ;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 900px;
+
+
+}
+
+.btn-area:hover {
+    background: #76bfb6;
+    color: #fff;
+
+
+}
+
+h3 {
+    color: #5f0f40;
+    font-weight: 2000;
+    font-size: 20px;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.5;
+    color: black;
+    font-weight: 800;
+    ;
+
+}
+
+li:nth-last-child(1) {
+    color: #5f0f40;
+}
+
+hr {
+    border-color: black;
+    border-style: dashed;
+}
+
+.payment_form input,
+select {
+    border: none;
+    background: #e9ecec;
+    padding: 15px 10px;
+    width: 32%;
+    border-radius: 2px;
+
+}
+
+.payment_form .form_input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+
+}
+
+.payment_form button {
+    width: 100%;
+    border: none;
+    background: #5f0f40;
+    color: white;
+    padding: 15px 0;
+    font-size: 20px;
+    border-radius: 2px;
+
+}
+
+.filling label {
+    justify-content: space-between;
+    padding: 50%;
+    text-align: center;
+
+
+}

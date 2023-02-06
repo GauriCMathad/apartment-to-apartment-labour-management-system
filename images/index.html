@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logging</title>
+    <link rel="stylesheet" href="logstyle.css">
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="rad-btn" id="rad1">
+            <input type="radio" name="rad-btn" id="rad2">
+            <input type="radio" name="rad-btn" id="rad3">
+            <input type="radio" name="rad-btn" id="rad4">
+            <input type="radio" name="rad-btn" id="rad5">
+
+            <div class="slide first">
+                <img src="plum1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="h.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="plum2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="worker.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="maid1.gif" alt="">
+            </div>
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+
+            </div>
+            </div>
+            <div class="nav-manual">
+                <label for="rad1" class="manual-btn"></label>
+                <label for="rad2" class="manual-btn"></label>
+                <label for="rad3" class="manual-btn"></label>
+                <label for="rad4" class="manual-btn"></label>
+                <label for="rad5" class="manual-btn"></label>
+
+            </div>
+    </div>
+    <script type="text/javascript">
+        var count=1;
+        setInterval(function(){
+            document.getElementById('rad' + count).checked = true;
+            count++;
+            if(count > 5){
+                count=1;
+            }
+        },5000);
+    </script>
+</body>
+</html>
